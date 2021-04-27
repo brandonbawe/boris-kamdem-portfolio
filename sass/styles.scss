@@ -121,7 +121,7 @@ main {
       padding: 2rem;
 
       .skill-card {
-        width: 30%;
+        width: 50%;
         text-align: center;
         padding: 2rem 1rem;
         box-shadow: 10px 0 20px rgba($color-dark, 0.2);
@@ -136,14 +136,10 @@ main {
         }
       }
 
-      .skill-card-1 {
-        background-color: rgba($color-yellow, 0.8);
-      }
-      .skill-card-2 {
-        background-color: rgba($color-primary, 0.8);
-      }
+    
       .skill-card-3 {
         background-color: rgba($color-blue, 0.8);
+        margin-left: 14rem;
       }
     }
   }

@@ -112,7 +112,7 @@ main .skills-section .skills-box {
 }
 
 main .skills-section .skills-box .skill-card {
-  width: 30%;
+  width: 50%;
   text-align: center;
   padding: 2rem 1rem;
   box-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
@@ -127,16 +127,9 @@ main .skills-section .skills-box .skill-card p {
   color: #333333;
 }
 
-main .skills-section .skills-box .skill-card-1 {
-  background-color: rgba(254, 187, 13, 0.8);
-}
-
-main .skills-section .skills-box .skill-card-2 {
-  background-color: rgba(229, 59, 96, 0.8);
-}
-
 main .skills-section .skills-box .skill-card-3 {
   background-color: rgba(65, 131, 229, 0.8);
+  margin-left: 14rem;
 }
 
 main .who-i-am-section {
