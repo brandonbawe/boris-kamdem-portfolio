@@ -260,11 +260,11 @@ footer .footer-inner .site__logo {
 }
 
 footer .footer-inner ul {
-  width: 75%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   position: relative;
-  left: 6.5rem;
+  left: 0rem;
   margin-bottom: 1rem;
 }
 
@@ -357,6 +357,31 @@ footer .footer-inner .footer-social-links .instagram {
   color: #000;
   font-size: 18px;
   font-family: "Titillium Web", sans-serif;
+}
+
+.assignment-one-main-content,
+.assignment-two-main-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.assignment-one-main-content .heading-main,
+.assignment-two-main-content .heading-main {
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.assignment-one-main-content ol li .heading,
+.assignment-two-main-content ol li .heading {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+.assignment-one-main-content ul,
+.assignment-two-main-content ul {
+  padding-left: 3rem;
 }
 
 .survey-videos-container {

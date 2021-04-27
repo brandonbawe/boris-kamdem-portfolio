@@ -266,11 +266,11 @@ footer {
     }
 
      ul {
-      width: 75%;
+      width: 95%;
       display: flex;
       justify-content: space-between;
       position: relative;
-      left: 6.5rem;
+      left: 0rem;
       margin-bottom: 1rem;
 
       li {
@@ -366,6 +366,36 @@ footer {
         
     }
 }
+
+.assignment-one-main-content,
+.assignment-two-main-content {
+   width: 80%;
+  margin: 0 auto;
+
+  .heading-main {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
+  ol {
+    li {
+      .heading {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 2rem;
+      }
+      
+    }
+  }
+
+  ul {
+    padding-left: 3rem;
+  }
+
+   
+}
+
+
 
 //Assignment Three Page Styles
 .survey-videos-container {
