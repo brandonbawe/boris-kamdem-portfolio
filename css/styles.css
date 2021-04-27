@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Titillium+Web:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Anton", sans-serif;
+}
+
+.site__logo {
+  font-size: 23px;
+  font-family: "Pacifico", cursive;
+}
+
+.header {
+  width: 85%;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav ul {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav ul li {
+  list-style-type: none;
+}
+
+.header nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header nav ul li .btn {
+  color: #fff;
+}
+
+.btn {
+  padding: 0.6rem 2rem;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background-color: #e53b60;
+}
+
+.btn-primary a {
+  color: #fff;
+}
+
+main .hero-section {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+main .hero-section-text h1 {
+  font-size: 45px;
+}
+
+main .hero-section-text p {
+  font-size: 20px;
+  color: #878686;
+}
+
+main .hero-section-image {
+  width: 40%;
+}
+
+main .hero-section-image img {
+  width: 100%;
+}
+
+main .skills-section {
+  width: 75%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+main .skills-section h2 {
+  text-align: center;
+}
+
+main .skills-section .skills-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+main .skills-section .skills-box .skill-card {
+  width: 30%;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+main .skills-section .skills-box .skill-card h3 {
+  padding-bottom: 1rem;
+}
+
+main .skills-section .skills-box .skill-card p {
+  color: #333333;
+}
+
+main .skills-section .skills-box .skill-card-1 {
+  background-color: rgba(254, 187, 13, 0.8);
+}
+
+main .skills-section .skills-box .skill-card-2 {
+  background-color: rgba(229, 59, 96, 0.8);
+}
+
+main .skills-section .skills-box .skill-card-3 {
+  background-color: rgba(65, 131, 229, 0.8);
+}
+
+main .who-i-am-section {
+  width: 75%;
+  margin: 0 auto;
+}
+
+main .who-i-am-section-inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .who-i-am-section h2 {
+  width: 40%;
+}
+
+main .who-i-am-section-text {
+  width: 50%;
+}
+
+main .who-i-am-section-text p {
+  color: #878686;
+}
+
+main .who-i-am-section-button-container {
+  position: relative;
+  left: 50%;
+  margin-top: 2rem;
+}
+
+main .who-i-am-section-button-container .btn-primary {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+main .who-i-am-section-button-container .social-link {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  margin-right: 1rem;
+}
+
+main .who-i-am-section-button-container .facebook {
+  background-color: #425d96;
+}
+
+main .who-i-am-section-button-container .twitter {
+  background-color: #54abf0;
+}
+
+main .who-i-am-section-button-container .instagram {
+  background-color: #f14654;
+}
+
+main .why-hire-me-section {
+  width: 75%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+main .why-hire-me-section-inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .why-hire-me-section h2 {
+  width: 40%;
+}
+
+main .why-hire-me-section-text {
+  width: 40%;
+}
+
+main .why-hire-me-section-text p {
+  color: #878686;
+  padding: 1rem 0;
+}
+
+main .why-hire-me-section-text .btn {
+  border: none;
+  color: #fff;
+}
+
+main .why-hire-me-section .why-hire-me-card {
+  width: 50%;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+}
+
+main .why-hire-me-section .why-hire-me-card .card-item {
+  padding-bottom: 2rem;
+}
+
+main .why-hire-me-section .why-hire-me-card .card-item .heading {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+}
+
+main .why-hire-me-section .why-hire-me-card .card-item .card-item-text {
+  color: #878686;
+}
+
+footer {
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer-inner {
+  width: 50%;
+  text-align: center;
+}
+
+footer .footer-inner .site__logo {
+  padding-bottom: 1rem;
+}
+
+footer .footer-inner ul {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 6.5rem;
+  margin-bottom: 1rem;
+}
+
+footer .footer-inner ul li {
+  list-style-type: none;
+}
+
+footer .footer-inner ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer .footer-inner .footer-social-links {
+  display: flex;
+  position: relative;
+  left: 14rem;
+}
+
+footer .footer-inner .footer-social-links .social-link {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  margin-right: 1rem;
+}
+
+footer .footer-inner .footer-social-links .facebook {
+  background-color: #425d96;
+}
+
+footer .footer-inner .footer-social-links .twitter {
+  background-color: #54abf0;
+}
+
+footer .footer-inner .footer-social-links .instagram {
+  background-color: #f14654;
+}
+
+.site-contact-form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.site-contact-form h1 {
+  font-size: 25px;
+  padding: 1rem 0;
+}
+
+.site-contact-form p {
+  color: #878686;
+}
+
+.site-contact-form .contact-form-card {
+  width: 100%;
+  background-color: #e53b60;
+  padding: 2rem;
+  margin: 3rem 0;
+  display: flex;
+}
+
+.site-contact-form .contact-form-card .contact-form-items {
+  width: 100%;
+}
+
+.site-contact-form .contact-form-card .contact-form-items-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.site-contact-form .contact-form-card .contact-form-items-div input, .site-contact-form .contact-form-card .contact-form-items-div textarea {
+  padding: 1rem 0.6rem;
+  border: none;
+  border-radius: 7px;
+}
+
+.site-contact-form .contact-form-card .contact-form-items-div input {
+  width: 49%;
+}
+
+.site-contact-form .contact-form-card .contact-form-items-div textarea {
+  width: 100%;
+}
+
+.site-contact-form .contact-form-card .contact-form-items-div .btn-secondary {
+  border-radius: 5px;
+  border: none;
+  background-color: #febb0d;
+  color: #000;
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.survey-videos-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.survey-videos-container .video-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.survey-videos-container .video-div .video-image {
+  width: 40%;
+  height: 15rem;
+  background-color: #e53b60;
+}
+
+.survey-videos-container .video-div .video-image-1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../images/survey-image-1.jpeg);
+  background-size: cover;
+}
+
+.survey-videos-container .video-div .video-image-2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../images/survey-image-2.jpeg);
+  background-size: cover;
+}
+
+.survey-videos-container .video-div .video-image-3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../images/survey-image-3.jpeg);
+  background-size: cover;
+}
+
+.survey-videos-container .video-div .video-text {
+  width: 45%;
+}
+
+.survey-videos-container .video-div .video-text h2, .survey-videos-container .video-div .video-text p {
+  padding-bottom: 1rem;
+}
+
+.survey-videos-container .video-div .video-text p {
+  color: #878686;
+}
+
+.assignment-four-main-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+}
+
+.assignment-four-main-section-img {
+  width: 100%;
+  height: 25rem;
+  border-radius: 9px;
+  background-image: url(../images/tourist.jpeg);
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.assignment-four-main-section h1 {
+  padding-bottom: 1rem;
+}
+
+.assignment-four-main-section p {
+  color: #878686;
+}
+
+.assignment-four-main-section .buttons {
+  padding: 2rem;
+}
+
+.assignment-four-main-section .buttons a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Titillium+Web:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$color-dark: #000;
+$color-dark-gray: #333333;
+$color-gray: #878686;
+$color-primary: #e53b60;
+$color-yellow: #febb0d;
+$color-blue: #4183e5;
+$color-light: #fff;
+
+body {
+  width: 100vw;
+  font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Anton", sans-serif;
+}
+
+.site__logo {
+  font-size: 23px;
+  font-family: "Pacifico", cursive;
+}
+
+.header {
+  width: 85%;
+  padding: 2rem 0;
+  margin: 0 auto;
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      width: 35%;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        list-style-type: none;
+
+        a {
+          color: $color-dark;
+          text-decoration: none;
+        }
+
+        .btn {
+          color: $color-light;
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  padding: 0.6rem 2rem;
+  border-radius: 20px;
+
+  &-primary {
+    background-color: $color-primary;
+
+    a {
+      color: $color-light;
+    }
+  }
+}
+
+main {
+  .hero-section {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+
+    &-text {
+      h1 {
+        font-size: 45px;
+      }
+      p {
+        font-size: 20px;
+        color: $color-gray;
+      }
+    }
+
+    &-image {
+      width: 40%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .skills-section {
+    width: 75%;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    h2 {
+      text-align: center;
+    }
+
+    .skills-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 2rem;
+
+      .skill-card {
+        width: 30%;
+        text-align: center;
+        padding: 2rem 1rem;
+        box-shadow: 10px 0 20px rgba($color-dark, 0.2);
+        border-radius: 5px;
+
+        h3 {
+          padding-bottom: 1rem;
+        }
+
+        p {
+          color: $color-dark-gray;
+        }
+      }
+
+      .skill-card-1 {
+        background-color: rgba($color-yellow, 0.8);
+      }
+      .skill-card-2 {
+        background-color: rgba($color-primary, 0.8);
+      }
+      .skill-card-3 {
+        background-color: rgba($color-blue, 0.8);
+      }
+    }
+  }
+
+  .who-i-am-section {
+    width: 75%;
+    margin: 0 auto;
+
+    &-inner-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h2 {
+      width: 40%;
+    }
+
+    &-text {
+      width: 50%;
+
+      p {
+        color: $color-gray;
+      }
+    }
+
+    &-button-container {
+      position: relative;
+      left: 50%;
+      margin-top: 2rem;
+      .btn-primary {
+        padding: 0.5rem 1rem;
+        color: $color-light;
+        text-decoration: none;
+        margin-right: 1rem;
+      }
+
+      .social-link {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: none;
+        margin-right: 1rem;
+      }
+
+      .facebook {
+        background-color: #425d96;
+      }
+      .twitter {
+        background-color: #54abf0;
+      }
+      .instagram {
+        background-color: #f14654;
+      }
+    }
+  }
+
+  .why-hire-me-section {
+    width: 75%;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    &-inner-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h2 {
+      width: 40%;
+    }
+
+    &-text {
+      width: 40%;
+
+      p {
+        color: $color-gray;
+        padding: 1rem 0;
+      }
+
+      .btn {
+        border: none;
+        color: $color-light;
+      }
+    }
+
+    .why-hire-me-card {
+      width: 50%;
+      box-shadow: 10px 5px 20px rgba($color-dark, 0.1);
+      padding: 3rem;
+
+      .card-item {
+        padding-bottom: 2rem;
+
+        .heading {
+          font-size: 20px;
+          font-family: "Anton", sans-serif;
+        }
+
+        .card-item-text {
+          color: $color-gray;
+        }
+      }
+    }
+  }
+}
+
+footer {
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+
+  .footer-inner {
+      width: 50%;
+      text-align: center;
+     
+
+    .site__logo {
+        padding-bottom: 1rem;
+    }
+
+     ul {
+      width: 75%;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 6.5rem;
+      margin-bottom: 1rem;
+
+      li {
+        list-style-type: none;
+
+        a {
+          color: $color-dark;
+          text-decoration: none;
+        }
+
+    
+      }
+    }
+
+    .footer-social-links {
+      display: flex;
+      position: relative;
+      left: 14rem;
+
+      .social-link {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: none;
+        margin-right: 1rem;
+      }
+
+      .facebook {
+        background-color: #425d96;
+      }
+      .twitter {
+        background-color: #54abf0;
+      }
+      .instagram {
+        background-color: #f14654;
+      }
+    }
+  }
+}
+
+
+// Contact Form Styles
+.site-contact-form {
+    margin: 0 auto;
+    width: 80%;
+
+    h1 {
+        font-size: 25px;
+        padding: 1rem 0;
+    }
+
+    p {
+        color: $color-gray;
+    }
+
+    .contact-form-card {
+        width: 100%;
+        background-color: $color-primary;
+        padding: 2rem;
+        margin: 3rem 0;
+        display: flex;
+        .contact-form-items {
+            width: 100%;
+            &-div {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1rem;
+                input, textarea {
+                    padding: 1rem 0.6rem;
+                    border: none;
+                    border-radius: 7px;
+                }
+                input {
+                    width: 49%;
+                }
+
+                textarea {
+                    width: 100%;
+                }
+
+                .btn-secondary {
+                    border-radius: 5px;
+                    border: none;
+                    background-color: $color-yellow;
+                    color: $color-dark;
+                    font-size: 18px;
+                    font-family: "Titillium Web", sans-serif;
+                }
+            }
+            
+        }
+        
+    }
+}
+
+//Assignment Three Page Styles
+.survey-videos-container {
+  width: 80%;
+  margin: 0 auto;
+
+  .video-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .video-image {
+      width: 40%;
+      height: 15rem;
+      background-color: $color-primary;
+
+      &-1 {
+        background-image: linear-gradient(to bottom, rgba($color-dark, .6), rgba($color-dark, .7)), url(../images/survey-image-1.jpeg);
+        background-size: cover;
+      }
+      &-2 {
+        background-image: linear-gradient(to bottom, rgba($color-dark, .6), rgba($color-dark, .7)), url(../images/survey-image-2.jpeg);
+        background-size: cover;
+      }
+      &-3 {
+        background-image: linear-gradient(to bottom, rgba($color-dark, .6), rgba($color-dark, .7)), url(../images/survey-image-3.jpeg);
+        background-size: cover;
+      }
+    }
+    .video-text {
+      width: 45%;
+      h2, p {
+        padding-bottom: 1rem;
+      }
+
+      p {
+        color: $color-gray;
+
+      }
+    }
+  }
+}
+
+.assignment-four-main-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  &-img {
+    width: 100%;
+    height: 25rem;
+    border-radius: 9px;
+    background-image: url(../images/tourist.jpeg);
+    background-size: cover;
+    margin-bottom: 3rem;
+  }
+
+  h1 {
+    padding-bottom: 1rem;
+  }
+
+  p {
+    color: $color-gray;
+  }
+
+  .buttons {
+    padding: 2rem;
+
+    a {
+      color: $color-light;
+      text-decoration: none;
+    }
+  }
+}
